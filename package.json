@@ -1,0 +1,20 @@
+{
+  "name": "snipet",
+  "version": "1.0.0",
+  "description": "example node.js",
+  "main": "load.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha testGet.js"
+  },
+  "author": "Boris Morenko",
+  "license": "ISC"
+}
